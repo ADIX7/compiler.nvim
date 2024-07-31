@@ -16,7 +16,7 @@ M.setup = function(opts)
 
     cmd("CompilerOpen", function()
         require("compiler.telescope").show()
-    end, { desc = "Open the compiler" })
+    end, { desc = "Open Compiler" })
 
     -- define the component used by the tasks
     require("overseer").register_alias("default_extended", {
